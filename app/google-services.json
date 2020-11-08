@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1030319084730",
+    "firebase_url": "https://endpoverty-7dfcd.firebaseio.com",
+    "project_id": "endpoverty-7dfcd",
+    "storage_bucket": "endpoverty-7dfcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030319084730:android:4a52ffb27bac03adaf5e83",
+        "android_client_info": {
+          "package_name": "com.example.endpoverty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030319084730-d4eufjajufdn8gg572k61grv3pj5ci4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBdjmkjSThdoc07EHF9EnEUu6zjQCRx5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030319084730-d4eufjajufdn8gg572k61grv3pj5ci4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

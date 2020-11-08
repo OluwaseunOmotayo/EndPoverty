@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostsActivity">
+
+    <include
+        android:id="@+id/main_toolbar"
+        layout="@layout/toolbar_layout"></include>
+
+    <ImageButton
+        android:id="@+id/new_post_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/main_toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/select_image" />
+
+    <EditText
+        android:id="@+id/post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_post_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/inputs"
+        android:ems="10"
+        android:hint="What would you like to share?"
+        android:inputType="textMultiLine"
+        android:padding="15dp" />
+
+    <!--Add background color to button later-->
+    <Button
+        android:id="@+id/new_post_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:padding="10dp"
+        android:text="POST"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button"
+        android:textColorHighlight="@color/cardview_light_background"
+        android:textSize="18sp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_post"
+        android:title="Create Post"
+        android:icon="@drawable/add_post"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon"/>
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/nav_organizations"
+        android:title="Organizations"
+        android:icon="@drawable/friends"/>
+    <item
+        android:id="@+id/nav_monthly_spotlight"
+        android:title="Monthly Spotlight"/>
+    <item
+        android:id="@+id/nav_reminder"
+        android:title="Giving Reminder"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings"/>
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Log out"
+        android:icon="@drawable/logout"/>
+</menu>
